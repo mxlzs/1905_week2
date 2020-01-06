@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 class WeekController extends Controller
 {
 
+
    public function encypt()
     {
         $char=$_GET['str'];
@@ -43,4 +44,6 @@ class WeekController extends Controller
 
         echo '解密：'.$str;
     }
+    //
+
 }
