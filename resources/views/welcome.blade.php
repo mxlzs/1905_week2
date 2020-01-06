@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    djy
+                    1905_week2
                 </div>
 
                 <div class="links">

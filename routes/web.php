@@ -20,3 +20,5 @@ Route::post('/api/test','Api\TestController@test');
 Route::post('/api/user/reg','Api\TestController@reg');
 Route::post('/api/user/login','Api\TestController@login');
 Route::get('/api/user/list','Api\TestController@userList')->middleware('filter');
+Route::get('/api/encypt','Api\WeekController@encypt');
+Route::get('/api/decypt','Api\WeekController@decypt');
